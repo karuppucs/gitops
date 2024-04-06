@@ -30,7 +30,7 @@ spec:
   resources:
     requests:
       storage: 5Gi
-  storageClassName: ocs-storagecluster-ceph-rbd
+  storageClassName: longhorn
 ---
 apiVersion: apps/v1
 kind: Deployment
